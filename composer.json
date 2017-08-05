@@ -1,0 +1,27 @@
+{
+    "name": "brightantwiboasiako/notifier",
+    "description": "Notification package for notifications across multiple channels",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bright Antwi Boasiako",
+            "email": "brightantwiboasiako@yahoo.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpunit/phpunit": "^6.3",
+        "mockery/mockery": "^0.9.9"
+    },
+    "autoload": {
+        "psr-4": {
+          "Notifier\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
